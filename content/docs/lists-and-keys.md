@@ -175,7 +175,7 @@ ReactDOM.render(
 
 **Пример правильного использования ключей**
 
-```javascript{2,3,9,10}
+```javascript{2,3,9,10,11}
 function ListItem(props) {
   // Правильно! Не нужно определять здесь ключ:
   return <li>{props.value}</li>;
